@@ -89,7 +89,7 @@
     \section{Work Experience}
     \runsubsection{Jump Trading}
     \descript{| Core Dev (C++)}
-    \location{Software Engineering Intern | May 2022 - June 2022}
+    \location{Software Engineering Intern | May 2022 - July 2022}
     \vspace{\topsep} % Hacky fix for awkward extra vertical space
     \begin{tightemize}
       \item Incoming Summer 2022 intern in the Core Development (C++) team in Jump Trading.
@@ -100,8 +100,8 @@
     \descript{| Order Gateway}
     \location{Software Engineering Intern | Jan 2022 - May 2022}
     \begin{tightemize}
-    \item Detected anomalies in Squarepoint's low latency Order Gateway system by introducing a highly efficient monitoring service in C++.
-    \item Design and developed data pipelines and dashboards to display key system metrics with elastic search.
+    \item Detected anomalies on the Order Gateway by implementing a post processor that calculates the gateway's latency in real time.
+    \item Design and develop a resource efficient services that tracks continuously gateway resource usage.
     \item Tech Stack: {\bf C++} \textbullet{} {\bf Python} \textbullet{} {\bf Elastic Search}
     \end{tightemize}
     \sectionsep
@@ -126,15 +126,6 @@
     \end{tightemize}
     \sectionsep
 
-    \runsubsection{Altonomy} \\
-    \location{Software Engineering Intern | May 2020 - Aug 2020}
-    \begin{tightemize}
-    \item Spearheaded Software Testing and achieved {\bf97\%} test coverage. 
-    \item Tech Stack: {\bf FastApi} \textbullet{} {\bf React} \textbullet{} {\bf InfluxDB} \textbullet{} {\bf MySQL} \textbullet{} {\bf Locust}
-    \end{tightemize}
-    \sectionsep
-
-
     \runsubsection{Xfers} \\
     \location{Software Engineering Intern | May 2019 - Nov 2019}
     \begin{tightemize}
@@ -145,6 +136,7 @@
     \item Tech Stack: {\bf Ruby on Rails} \textbullet{} {\bf React} \textbullet{} {\bf Open API Specification}
     \end{tightemize}
     \sectionsep
+
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     %     Projects
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -159,19 +151,29 @@
     \end{tightemize}
     \sectionsep
 
-    \runsubsection{Static Analyzer in C++}
+    \runsubsection{Static Analyzer in C++17}
     \descript{  }
     \begin{tightemize}
-      \item Implemented a high performant static analyzer for the SIMPLE programming language in C++.
-      \item Develop a recursive descent parser to construct an abstract syntax tree and leverage on arena allocator to achieve low latency.
-      \item You can view the project \href{https://github.com/klementtan/CS3203}{here}
+      \item Developed a highly performant static analyzer for the SIMPLE programming language in C++ 17.
+      \item Implemented a recursive descent parser to construct an abstract syntax tree.
+      \item Achieved low latency by implementing a custom memory arena allocator.
+      \item Leveraged on templates to achieve compile time polymorphism and smart pointers for easy memory management.
     \end{tightemize}
-
     \sectionsep
+
+    \runsubsection{C++ String}
+    \descript{  }
+    \begin{tightemize}
+      \item Implemented std::string with short string and copy on write optimisation.
+      \item Achieved 2x speedup over LLVM's implementation when copying long strings.
+      \item You can view the project \href{https://github.com/klementtan/string_cpp}{here}
+    \end{tightemize}
+    \sectionsep
+
   \section{Technical Skills} 
   \vspace{\topsep} % Hacky fix for awkward extra vertical space
   \begin{tightemize}
-    \item {\bf Languages}: C++ \textbullet{} Java \textbullet{} Python \textbullet{} Dart \textbullet{} Ruby \textbullet{} Javascript \textbullet{} Bash
+    \item {\bf Languages}: Python \textbullet{} C++ \textbullet{} Java \textbullet{} Dart \textbullet{} Ruby \textbullet{} Javascript \textbullet{} Bash
     \item {\bf Technologies}: Bazel \textbullet{} Flutter \textbullet{} Elastic Search \textbullet{} Kafka \textbullet{} Ruby on Rails \textbullet{} React \textbullet{} Docker \textbullet{} pytest \textbullet{} MySQL/PostgresSQL \textbullet{} Git
     \end{tightemize}
 
